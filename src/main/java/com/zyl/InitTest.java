@@ -15,7 +15,7 @@ public class InitTest {
 
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("services.xml");
 
     }
 }
