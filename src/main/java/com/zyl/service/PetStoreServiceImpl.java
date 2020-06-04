@@ -9,4 +9,21 @@ package com.zyl.service;
  * Description:
  */
 public class PetStoreServiceImpl {
+
+
+    private DogServiceImpl dogService;
+
+
+    public PetStoreServiceImpl() {
+        System.out.println("==========");
+    }
+
+
+    public DogServiceImpl getDogService() {
+        return dogService;
+    }
+
+    public void setDogService(DogServiceImpl dogService) {
+        this.dogService = dogService;
+    }
 }

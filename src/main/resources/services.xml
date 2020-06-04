@@ -6,6 +6,10 @@
 
     <!-- services -->
     <bean id="petStore" class="com.zyl.service.PetStoreServiceImpl">
+        <property name="dogService" ref="dogService"/>
+    </bean>
+
+    <bean id="dogService" class="com.zyl.service.DogServiceImpl">
     </bean>
 
 
